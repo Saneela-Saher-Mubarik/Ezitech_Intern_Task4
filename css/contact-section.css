@@ -1,0 +1,59 @@
+.contact-section {
+  padding: 13rem 0 10rem;
+}
+input,
+textarea {
+  border: 1px solid rgb(232, 232, 232);
+
+  border-radius: 5px;
+  margin-bottom: 15px;
+
+  &:focus,
+  &:active {
+    outline: none;
+    border: 0.1rem solid var(--gray-color);
+  }
+}
+textarea {
+  padding: 1.2rem 3rem 0 1.8rem !important;
+}
+input {
+  height: 4.2rem;
+  padding: 0 3rem 0 1.8rem !important;
+}
+.loan-section .application {
+  border: 0.1rem solid var(--gray-light);
+  margin: 10rem 0;
+}
+
+.form {
+  padding: 0 0.25rem !important;
+  margin: 0 0.25rem !important;
+}
+.form .col-md-6 {
+  width: 29rem !important;
+}
+.form a.btn-outline {
+  width: 22rem;
+}
+.contact-info {
+  display: flex;
+  align-items: start;
+  gap: 1.2rem;
+}
+.contact-info .contact-body{
+    padding: 0.8rem 0 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-info .contact-body h4 {
+  color: var(--secondary-color);
+  line-height: 0;
+}
+.contact-info .icon {
+  font-size: 2.7rem;
+  opacity: 0.4;
+  width: 2.8rem;
+  height: 2.8rem;
+}

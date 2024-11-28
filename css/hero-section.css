@@ -1,0 +1,45 @@
+.hero-section {
+  padding: 22rem 0 15rem;
+}
+@media (width <=768px) {
+  .hero-section {
+    padding: 14rem 0;
+  }
+}
+
+.hero-section {
+  background: var(--linear-gradient),
+    url("../images/banner.png") 70% / cover no-repeat;
+}
+.left {
+  align-self: center;
+  padding: 0 3.2rem;
+  margin-bottom: 3.2rem;
+}
+.right {
+  padding: 0 3.2rem;
+  /* width: max-content; */
+}
+.application {
+  background: var(--primary-color);
+  padding: 3rem;
+  border-radius: 0.5rem;
+}
+@media (width <= 768px) {
+  .application {
+    padding: 2rem;
+  }
+}
+/*! Hero-Section Pages */
+.hero-about {
+  padding: 22rem 0 15rem;
+}
+@media (width <=768px) {
+  .hero-about {
+    padding: 18rem 0 1rem;
+  }
+}
+.hero-about {
+  background: var(--linear-gradient),
+    url("../images/banner.png") 70% / cover no-repeat;
+}

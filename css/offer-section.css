@@ -1,0 +1,103 @@
+.offer-section {
+  padding: 15rem 0 12rem;
+}
+@media (width <= 991px) {
+  .offer-section {
+    padding: 10rem 0 7rem;
+  }
+}
+@media (width <= 767px) {
+  .offer-section {
+    padding: 5rem 0 3rem;
+  }
+}
+:is(.offer-section, .work-section) .heading {
+  margin-bottom: 5rem;
+}
+:is(.offer-section, .work-section) .heading .border {
+  display: inline-block;
+  background: var(--green-color);
+  width: 6rem;
+  height: 0.3rem;
+  border-radius: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.offer-card {
+  background: var(--card-gradient);
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;
+}
+@media (width < 321px) {
+  .offer-card {
+    width: 100%;
+    align-self: center;
+  }
+}
+.offer-card .service-img {
+  display: grid;
+  place-items: center;
+  padding: 4rem 0;
+}
+.offer-card .service-heading {
+  text-align: center;
+}
+.offer-card .service-heading .service-price {
+  color: var(--green-color);
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  line-height: 4.2rem;
+  font-weight: 400;
+}
+.offer-card .body {
+  padding: 3rem 2rem 5rem;
+  margin-top: 2.8rem;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.15);
+}
+.offer-card .body .service-list ul {
+  margin-bottom: 3.2rem;
+
+  & li {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    color: var(--primary-color);
+    font-weight: 400;
+    padding-left: 1.8rem;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 0.8rem;
+      height: 0.8rem;
+      border-radius: 50%;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background: var(--green-color);
+    }
+  }
+}
+.why-list ul {
+  margin-bottom: 3.2rem;
+}
+.why-list ul li {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: var(--secondary-color);
+  font-weight: 400;
+  padding-left: 1.8rem;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--blue-color);
+  }
+}

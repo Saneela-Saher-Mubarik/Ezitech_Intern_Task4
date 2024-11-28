@@ -1,0 +1,23 @@
+.work-section {
+  background: var(--bg-blue);
+}
+.work-section .heading .border {
+  margin: 3.2rem 0 0;
+}
+.work-section .work-block{
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+.work-section .count {
+  display: inline-block;
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 50%;
+  background: var(--border-blue);
+  color: var(--blue-color);
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 7.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
